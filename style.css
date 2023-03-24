@@ -43,6 +43,11 @@ a {
   .header > img {
     border-radius: 20px;
   }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
   /* or */
   /* .card {
     background: white;
@@ -54,7 +59,7 @@ a {
   } */
   .footer {
     /* background: #F4F4F4; */
-    background: linear-gradient(90deg, rgb(239, 192, 26) 0%, rgb(239, 223, 26) 100%);
+    /* background: linear-gradient(90deg, rgb(239, 192, 26) 0%, rgb(239, 223, 26) 100%); */
     display: flex;
     align-items: center;
     justify-content: space-between;
