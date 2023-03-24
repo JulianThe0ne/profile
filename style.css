@@ -17,7 +17,8 @@ h1 {
 
 body {
   color: rgb(0, 0, 0);
-  background-color: rgba(254, 223, 42, 0.7);
+  /* background-color: rgba(254, 223, 42, 0.7); */
+  background: linear-gradient(90deg, rgb(239, 192, 26) 0%, rgb(239, 223, 26) 100%);
   font-family: "Open Sans", sans-serif;
   letter-spacing: 1px;
   padding: 8px;
@@ -60,37 +61,34 @@ a {
     padding: 5px;
     margin: 15px;
   }
-.bottom {
-  /* background: rgb(0, 0, 0, 0.9); */
-  color: white;
-  padding: 5px;
-  border-radius: 25px;
-  font-size: 16px;
-  margin: 15px;
-}
-.bottom > ul {
-  margin: 10px;
-  padding: 10px;
-}
-  .bottom > ul > li {
-    list-style: none;
-    /* padding: 10px; */
-    display: inline-block;
-    /* font-size: 10px;
-    padding: 1px; */
+  .footer {
+    /* background: #F4F4F4; */
+    background: linear-gradient(90deg, rgb(239, 192, 26) 0%, rgb(239, 223, 26) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 50px;
+    color: rgba(0,0,0,0.3);
+  }
+  .footer-links {
+    display: flex;
+    align-items: center;
+  }
+  .footer-links a {
+    color: black;
+    opacity: 0.15;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+  }
+  .footer-links a:hover {
+    opacity: 1;
+  }
+  .footer .fa-heart {
+    color: #D23333;
   }
 
-.bottom > ul > li > a {
-  list-style: none;
-  /* padding: 10px; */
-  display: inline-block;
-  font-size: 30px;
-  color:rgb(0, 0, 0);
-}
-
-.bottom > ul > li > a:hover {
-  color:#eb5656;
-}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
