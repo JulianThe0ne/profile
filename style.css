@@ -16,11 +16,11 @@ h1 {
 }
 
 body {
-  color: rgb(252, 226, 42);
-  background-color: rgba(180, 181, 180, 0.9);
+  color: rgb(0, 0, 0);
+  background-color: rgba(254, 223, 42, 0.7);
   font-family: "Open Sans", sans-serif;
   letter-spacing: 1px;
-  padding: 25px;
+  padding: 8px;
 }
 
 a {
