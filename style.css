@@ -5,15 +5,6 @@ h1 {
   font-weight: 100;
   border-radius: 15px;
 }
- .container > h2 {
-  font-size:  21px;
-  background: rgba(16, 15, 15, 0.9);
-  color: white;
-  /* padding: 10px; */
-  border-radius: 25px;
-  margin: 20px;
-
-}
 
 body {
   color: rgb(0, 0, 0);
@@ -39,10 +30,10 @@ a {
   display: inline-block;
   }
 
-.btn:hover {
+/* .btn:hover {
   background-color: #eb5656;
   color: white;
-  }
+  } */
 
   .container {
     text-align: center;
@@ -53,14 +44,14 @@ a {
     border-radius: 20px;
   }
   /* or */
-  .card {
+  /* .card {
     background: white;
     border: rgb(7, 7, 7);
     border-radius: 10px;
     box-shadow: 1px 1px 2px rgba(65, 74, 80, 0.5);
     padding: 5px;
     margin: 15px;
-  }
+  } */
   .footer {
     /* background: #F4F4F4; */
     background: linear-gradient(90deg, rgb(239, 192, 26) 0%, rgb(239, 223, 26) 100%);
@@ -84,9 +75,6 @@ a {
   }
   .footer-links a:hover {
     opacity: 1;
-  }
-  .footer .fa-heart {
-    color: #D23333;
   }
 
 
