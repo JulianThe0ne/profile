@@ -14,6 +14,29 @@ body {
   letter-spacing: 1px;
   padding: 8px;
 }
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.css-top-a {
+  display: flex;
+  box-sizing: border-box;
+}
+.css-top-r {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+.css-top-title {
+  font-size: 38px;
+  position: relative;
+}
+.css-top-para {
+  font-size: 24px;
+  position: relative;
+}
 
 a {
   text-decoration: none;
@@ -30,10 +53,6 @@ a {
   display: inline-block;
   }
 
-/* .btn:hover {
-  background-color: #eb5656;
-  color: white;
-  } */
 
   .container {
     text-align: center;
@@ -44,19 +63,8 @@ a {
     border-radius: 20px;
   }
 
-  .flex-container {
-    display: flex;
-    justify-content: center;
-  }
-  /* or */
-  /* .card {
-    background: white;
-    border: rgb(7, 7, 7);
-    border-radius: 10px;
-    box-shadow: 1px 1px 2px rgba(65, 74, 80, 0.5);
-    padding: 5px;
-    margin: 15px;
-  } */
+
+
   .footer {
     /* background: #F4F4F4; */
     /* background: linear-gradient(90deg, rgb(239, 192, 26) 0%, rgb(239, 223, 26) 100%); */
