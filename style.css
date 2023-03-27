@@ -15,16 +15,13 @@ body {
   padding: 8px;
 }
 
-/* .container {
-  text-align: center;
-  width: 500px;   /* This sets the width */
-  /* margin: 0px auto; This automatically sets left/right margins */
-/* } */
-
-.flex-container {
+.container {
   display: flex;
-  justify-content: center;
+  text-align: center;
+  width: 500px;
+  margin: 0px auto;
 }
+
 
 .css-top-a {
   display: flex;
