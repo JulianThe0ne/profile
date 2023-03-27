@@ -14,10 +14,17 @@ body {
   letter-spacing: 1px;
   padding: 8px;
 }
-.flex-container {
+
+.container {
+  text-align: center;
+  width: 500px;   /* This sets the width */
+  margin: 0px auto; /* This automatically sets left/right margins */
+}
+
+/* .flex-container {
   display: flex;
   justify-content: center;
-}
+} */
 
 .css-top-a {
   display: flex;
@@ -54,11 +61,7 @@ a {
   }
 
 
-  .container {
-    text-align: center;
-    width: 500px;   /* This sets the width */
-    margin: 0px auto; /* This automatically sets left/right margins */
-  }
+
   .header > img {
     border-radius: 20px;
   }
