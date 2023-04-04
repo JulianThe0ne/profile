@@ -24,7 +24,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                       <li class="nav__item">
-                          <a href="#home" class="nav__link">
+                          <a href="#home" class="nav__link active-link">
                               <i class="uil uil-estate nav__icon"></i> Home
                           </a>
                       </li>
@@ -39,8 +39,8 @@
                           </a>
                       </li>
                       <!-- <li class="nav__item">
-                          <a href="#services" class="nav__link">
-                              <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                          <a href="#volunteer" class="nav__link">
+                              <i class="uil uil-briefcase-alt nav__icon"></i> Volunteer
                           </a>
                       </li> -->
                       <li class="nav__item">
@@ -58,6 +58,9 @@
                 </div>
 
                 <div class="nav__btns">
+                  <!-- Theme change button -->
+                  <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                   <div class="nav__toggle" id="nav-toggle">
                       <i class="uil uil-apps"></i>
                   </div>
@@ -217,9 +220,9 @@
                           <div class="skills__data">
                             <div class="skills__titles">
                               <!-- <h3 class="skills__name">React</h3> -->
-                              <span class="petite__icon">
-                                <i class="uil uil-check-square"></i>
-                              </span>
+                              <!-- <span class="petite__icon"> -->
+                                <!-- <i class="uil uil-check-square"></i> -->
+                              <!-- </span> -->
                             </div>
                             <div class="skills__bar">
                               <span class="skills__percentage skills__react"></span>
@@ -282,9 +285,9 @@
                           <div class="skills__data">
                             <div class="skills__titles">
                               <!-- <h3 class="skills__name">Python</h3> -->
-                              <span class="petite__icon">
+                              <!-- <span class="petite__icon">
                                 <i class="uil uil-check-square"></i>
-                              </span>
+                              </span> -->
                            </div>
                             <div class="skills__bar">
                               <span class="skills__percentage skills__python"></span>
@@ -298,81 +301,11 @@
                 </div>
             </section>
 
-            <!--==================== QUALIFICATION ====================-->
-            <!-- <section class="qualification section">
-              <h2 class="section__title">Qualification</h2>
-              <span class="section__subtitle">My personal journey</span>
+               <!--==================== VOLUNTEER ====================-->
+               <section class="volunteer section" id="volunteer">
+                <h2 class="section__title">Volunteer</h2>
+               </section>
 
-              <div class="qualification__container container">
-                  <div class="qualification__tabs">
-                    <div class="qualification__button button--flex">
-                      <i class="uil uil-graduation-cap qualification__icon"></i>
-                      Education
-                    </div>
-
-                    <div class="qualification__button button--flex">
-                      <i class="uil uil-briefcase-alt qualification__icon"></i>
-                      Work
-                    </div>
-                  </div>
-
-                  <div class="qualification__sections"> -->
-            <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                    <!-- <div class="qualification__content"> -->
-            <!--==================== QUALIFICATION 1 ====================-->
-                      <!-- <div class="qualification__date">
-                        <div>
-                          <h3 class="qualification__title">Web development</h3>
-                          <span class="qualification__subtitle">Le Wagon Tokyo</span>
-                          <div class="qualification__calendar">
-                            <i class="uil uil-calendar-alt"></i>
-                            2023
-                          </div>
-                        </div>
-
-                        <div>
-                          <span class="qualification__rounder"></span>
-                          <span class="qualification__line"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </section> -->
-
-            <!--==================== SERVICES ====================-->
-            <!-- <section class="services section" id="services">
-                <h2 class="section__title">Services</h2>
-                <span class="section__subtitle">What I offer</span>
-
-                <div class="services__container container grid"> -->
-            <!--==================== SERVICES 1 ====================-->
-                  <!-- <div class="services__content">
-                    <div>
-                      <i class="uil uil-web-grid services__icon"></i>
-                      <h3 class="services__title">Frontend/Backend <br>Development</h3>
-                    </div>
-
-                    <span class="button button--flex button--small button--link services__button">
-                      View more
-                      <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                          <h4 class="services__modal-title">Frontend/Backend <br>Development</h4>
-                          <i class="uil uil-times services__modal-close"></i>
-
-                          <ul class="services__modal-services grid"></ul>
-                            <li class="services__modal-service">
-                              <i class="uil uil-check-circle services__modal-icon"></i>
-                              <p>Web Development</p>
-                            </li>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-            </section> -->
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
@@ -419,17 +352,6 @@
                       <div class="swiper-pagination"></div>
                     </div>
               </div>
-            </section>
-
-
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-
             </section>
 
             <!--==================== CONTACT ME ====================-->
@@ -532,7 +454,9 @@
         </footer>
 
         <!--==================== SCROLL TOP ====================-->
-
+        <a href="#" class="scrollup" id="scroll-up">
+          <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/JS/swiper-bundle.min.js"></script>
