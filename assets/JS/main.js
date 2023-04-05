@@ -54,22 +54,33 @@ skillsHeader.forEach((el) => {
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiper = new Swiper('.portfolio__container', {
-  cssMode: true,
-  loop: true,
+// let swiper = new Swiper('.portfolio__container', {
+//   cssMode: true,
+//   loop: true,
 
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-});
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+//   pagination: {
+//     el: '.swiper-pagination',
+//     clickable: true,
+//   },
+// });
 
-/*==================== TESTIMONIAL ====================*/
+/*==================== WEBSITE-COUNTER ====================*/
+// let counterContainer = document.querySelector('.website__counter');
+// let visitCount = localStorage.getItem('page_view');
 
+// // Check if page_view entry is present
+// if (visitCount) {
+//   visitCount = Number(visitCount) + 1;
+//   localStorage.setItem('page_view', visitCount);
+// } else {
+//   visitCount = 1;
+//   localStorage.setItem('page_view', 1);
+// }
+// counterContainer.innerHTML = visitCount;
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
