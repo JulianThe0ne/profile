@@ -28,59 +28,30 @@ function linkAction() {
   navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+
 /*==================== ACCORDION SKILLS ====================*/
-const skillsContent = document.getElementsByClassName('skills__content'),
-  skillsHeader = document.querySelectorAll('.skills__header')
+// const skillsContent = document.getElementsByClassName('skills__content'),
+//   skillsHeader = document.querySelectorAll('.skills__header')
 
-function toggleSkills() {
-    let itemClass = this.parentNode.className
+// function toggleSkills() {
+//     let itemClass = this.parentNode.className
 
-    for(i = 0; i < skillsContent.length; i++) {
-      skillsContent[i].className = 'skills__content skills__close'
-    }
-    if(itemClass === 'skills__content skills__close') {
-      this.parentNode.className = 'skills__content skills__open'
-    }
-}
+//     for(i = 0; i < skillsContent.length; i++) {
+//       skillsContent[i].className = 'skills__content skills__close'
+//     }
+//     if(itemClass === 'skills__content skills__close') {
+//       this.parentNode.className = 'skills__content skills__open'
+//     }
+// }
 
-skillsHeader.forEach((el) => {
-  el.addEventListener('click', toggleSkills)
-})
+// skillsHeader.forEach((el) => {
+//   el.addEventListener('click', toggleSkills)
+// })
 
 /*==================== QUALIFICATION TABS ====================*/
 
 
-/*==================== SERVICES MODAL ====================*/
-
-
-/*==================== PORTFOLIO SWIPER  ====================*/
-// let swiper = new Swiper('.portfolio__container', {
-//   cssMode: true,
-//   loop: true,
-
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-//   pagination: {
-//     el: '.swiper-pagination',
-//     clickable: true,
-//   },
-// });
-
-/*==================== WEBSITE-COUNTER ====================*/
-// let counterContainer = document.querySelector('.website__counter');
-// let visitCount = localStorage.getItem('page_view');
-
-// // Check if page_view entry is present
-// if (visitCount) {
-//   visitCount = Number(visitCount) + 1;
-//   localStorage.setItem('page_view', visitCount);
-// } else {
-//   visitCount = 1;
-//   localStorage.setItem('page_view', 1);
-// }
-// counterContainer.innerHTML = visitCount;
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
