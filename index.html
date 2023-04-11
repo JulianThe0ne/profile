@@ -317,22 +317,22 @@
                     <div class="contact__inputs grid">
                       <div class="contact__content">
                         <label for="" class="contact__label">Name</label>
-                        <input type="text" class="contact__input">
+                        <input type="text" id="fullName" class="contact__input">
                       </div>
 
 
                       <div class="contact__content">
                         <label for="" class="contact__label">Email</label>
-                        <input type="email" class="contact__input">
+                        <input type="email" id="email_id" class="contact__input">
                       </div>
 
 
                       <div class="contact__content">
                         <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea name="" id="message" cols="0" rows="7" class="contact__input"></textarea>
                       </div>
                       <div>
-                        <a href="#" class="button button--flex">
+                        <a href="#" class="button button--flex" onclick="SendMail()">
                           Send Message
                           <i class="uil uil-message button__icon"></i>
                         </a>
@@ -394,5 +394,13 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/JS/main.js"></script>
+
+        <!--==================== EMAIL JS ====================-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+          <script type="text/javascript">
+            (function(){
+                emailjs.init("j9GYovqEr1AEBTEs9");
+            })();
+          </script>
     </body>
 </html>

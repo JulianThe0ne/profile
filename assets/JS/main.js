@@ -94,3 +94,15 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+// Email JS
+function SendMail() {
+  let params = {
+      from_name : document.getElementById("fullName").value,
+      email_id : document.getElementById("email_id").value,
+      message : document.getElementById("message").value
+  }
+  emailjs.send("service_ndjh6pu", "template_lhab2i7", params).then(function(res){
+    alert("Thank you for your message! I'll be back in touch with you soon. Have a great day! " + res.status);
+  })
+}
