@@ -291,7 +291,6 @@ img {
   align-items: center;
 }
 
-
 .home__social {
   bottom: 5rem;
   left: 0;
@@ -382,7 +381,7 @@ img {
 
 .button__icon {
   font-size: 1.25rem;
-  margin-left: var(--mb-0-5);
+  margin-left: var(--mb-0-25);
   transition: .3s;
 }
 
@@ -428,7 +427,8 @@ img {
 
 .about__buttons {
   display: flex;
-  justify-content: center;
+  gap: 16px;
+  justify-content: space-between;
 }
 
 /*==================== SKILLS ====================*/
@@ -479,35 +479,35 @@ img {
   line-height: 18px;
 }
 
-/*==================== VOLUNTEER ====================*/
-.volunteer__container {
+/*==================== HOBBY ====================*/
+.hobby__container {
   padding-top: 1rem;
   overflow: initial;
 }
 
-.volunteer__card {
+.hobby__card {
   background-color: var(--container-color);
-  padding: 1rem;
+  padding: .75rem;
   border-radius: 1rem;
 }
 
-.volunteer__img {
+.hobby__img {
 border-radius: 1rem;
 margin-bottom: .75rem;
 }
 
-.volunteer__title {
+.hobby__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: .25rem;
 }
 
-.volunteer__description {
+.hobby__description {
   font-size: var(--smaller-font-size);
-  margin-bottom: var(--mb-0-75);
+  margin-bottom: var(--mb-0-5);
 }
 
-.volunteer__button {
+.hobby__button {
   width: max-content;
   color: var(--first-color);
   font-size: var(--small-font-size);
@@ -516,11 +516,11 @@ margin-bottom: .75rem;
   column-gap: .25rem;
 }
 
-.volunteer__button:hover .volunteer__icon{
+.hobby__button:hover .hobby__icon{
   transform: translateX(.25rem);
 }
 
-.volunteer__icon {
+.hobby__icon {
   font-size: 1rem;
   transition: .4s;
 }
@@ -533,7 +533,7 @@ margin-bottom: .75rem;
 
 .portfolio__card {
   background-color: var(--container-color);
-  padding: 1rem;
+  padding: .75rem;
   border-radius: 1rem;
 }
 
@@ -550,7 +550,7 @@ margin-bottom: .75rem;
 
 .portfolio__description {
   font-size: var(--smaller-font-size);
-  margin-bottom: var(--mb-0-75);
+  margin-bottom: var(--mb-0-5);
 }
 
 .portfolio__button {
@@ -818,12 +818,15 @@ margin-bottom: .75rem;
     justify-self: center;
   }
 
-  .volunteer__container,
+  .hobby__container,
   .portfolio__container {
     justify-content: center;
   }
 
-  .volunteer__img,
+  .hobby__img {
+    width: 240px;
+  }
+
   .portfolio__img {
     width: 295px;
   }
@@ -943,12 +946,15 @@ margin-bottom: .75rem;
     justify-content: initial;
   }
 
-  .volunteer__img,
+  .hobby__img {
+    width: 300px;
+  }
+
   .portfolio__img {
     width: 320px;
   }
 
-  .volunteer__container,
+  .hobby__container,
   .portfolio__container {
     grid-template-columns: repeat(2, max-content);
   }
