@@ -56,6 +56,7 @@
     --z-modal: 1000;
 }
 
+/* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
     :root {
@@ -64,8 +65,8 @@
         --h2-font-size: 1.5rem;
         --h3-font-size: 1.25rem;
         --normal-font-size: 1rem;
-        --small-font-size: .875rem;
-        --smaller-font-size: .813rem;
+        --small-font-size: .973rem;
+        --smaller-font-size: .911rem;
     }
 }
 
